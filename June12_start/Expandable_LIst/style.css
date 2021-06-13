@@ -1,0 +1,11 @@
+li > ul {
+    color: red;
+}
+
+ol ul{
+    visibility: hidden;
+}
+
+li:hover > ul{
+    visibility: visible;
+}

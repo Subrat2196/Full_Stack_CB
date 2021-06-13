@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Here what we are trying to do is rather than showing the inside elements we only want to show them whenever 
+    we hover over the list elements-> we can do things like setting the visibility for ul inside ul
+    we can do this li:hover > ul{ visibility:visible} //It means that ul which is directly inside the list which is hovered
+
+    We in the css file will write    ul ol {} It means inside ul there is an ol
+    We can also do as li > ol which means only the ol which are inside the li will be colored
+
+    These types are called CSS combinators--> 
+    <ul>
+        <li> Item1
+            <ol>
+                <li>Hey there you know ne</li>
+                <li>I am here to do my best</li>
+                <li>Come back now i drive every
+                    <ul>
+                        <li>Inside list</li>
+                        <li>inside list</li>
+                        <li>inside list</li>
+                    </ul>
+                </li>
+
+            </ol>
+        </li>
+    </ul>
+    <ul>
+        <li> Item2
+            <ol>
+                <li>Hey there you know me</li>
+                <li>I am here to do my best</li>
+                <li>Come back now i drive every</li>
+            </ol>
+        </li>
+    </ul>
+    <li>Today is the day</li>
+    <li>You have to see me</li>
+</body>
+</html>

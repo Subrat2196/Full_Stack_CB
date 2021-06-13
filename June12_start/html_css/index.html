@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  <!--In CSS what we can do is write a style tag in the head, which does the styling-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!--Inside the style tag we put a particular kind of element and give it features-->
+    
+    <style> 
+        h1{
+            color: blue;
+        }
+
+    </style>
+
+    <!-- In the property is like a key value pair-->
+    <!-- In this with time the css properties can take a lot of space in head therefore we
+    try making a seperate file for it-->
+
+    <link rel="stylesheet" href="style.css">
+    <!--Link tag gives the relationship which is stylesheet and head reference path we need to give-->
+</head>
+<body>
+    <h1>Hey there what are we supposed to do</h1>
+    <h2>We are making the size smaller each time</h2>
+    <h3>Its more smaller see</h3>
+
+    <br>
+    <!--If we want all paragraphs to be right aligned we can directly do in css file using text 
+        align on the p tag by doing p{text align:}-->
+        <!-- But if we want a specific para to be right aligned what we can do is
+        set the class for the individual paragraphs that we want the right alignment for-->
+    <p class="right">
+        You are the reason
+    </p>
+    <p>This is the truth you must know</p>
+    <p id="para3">
+        That i am losing my mind
+    </p>
+    <p id="para3">To be with you so come back now</p>
+
+    <!-- instead of using class for para for each class expicitly we can do something better with
+    div tag-->
+<br>
+    <div>This is the first line</div>
+    <div>This is the second line</div>
+    <div>This is the third line</div>
+    <div>This is the fourth line</div>
+</body>
+</html>
