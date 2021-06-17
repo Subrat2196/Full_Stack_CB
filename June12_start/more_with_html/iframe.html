@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>iframe</h1>
+    <!--iframe is used to embed one page into another-->
+    <!--Youtube videos wherever they are embedded are embedded using the iframes-->
+    <!-- We can create an iframe which is used to open a link in a specific part of the page, we can set the width
+    ,height of the frame and the source of the link-->
+    <!--Here if we set the frameborder as 0 we dont know from where which part is loaded
+    In this case there are two pages that will load, first is the iframe.html and other is the links.html. We can see it in 
+    the network tab -->
+    <!--Here what we can also do that if we set the target in an anchor tag to that iframe name it will open inside the iframe -->
+    <!--Here if we set the www.google.com in the parent page-->
+    <!--Here the browser does not go in dumb recursion if we call an iframe and inside it we call the same iframe-->
+    <ul>
+        <li><a href="./links.html" target="frame1">Links</a></li>
+        <li><a href="./inner_Link.html" target="frame1">InnerLink</a></li>
+    </ul>
+
+    <h2>First frame</h2>
+    <iframe src="links.html" name="frame3" width="300px" height="300px" frameborder="5"></iframe>
+    <iframe src="links.html" width="300px" name="frame4" height="300px" frameborder="5"></iframe>
+
+    <h2>Second frame</h2>
+    <!--iframes are also inline elements you can also join them horizontally-->
+    <iframe src="http://example.com" name="frame1" width="300px" height="300px" frameborder="0"></iframe>
+    <iframe src="http://shippie.com" name="frame2" width="300px" height="300px" frameborder="0"></iframe>
+</body>
+</html>    

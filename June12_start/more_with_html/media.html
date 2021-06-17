@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Media </h1>
+    <!--Here the alt tag shows when the picture is not opened and also for the visually impaired to read out what the picture 
+    is about-->
+    <!--Here if we set just height and not width then the aspect ratio is automatically calculated-->
+    <img src="media/picture.jpg" alt="Picture of butterfly" height="250px">
+    
+    <br>
+    <!-- Here if we write just this <video src="media/video.mp4"></video> then we need to explicitly play the video on the 
+        web browser after writing controls in video, then only it will have the video 
+        In preload if we select metadata then the browser will have no info about the video until it is played
+    We have autoplay in video but modern browsers disable the fuctionality due to the reason that if we enable autoplay and
+    disble the controls there is no way to stop the audio other than muting the browser -->
+
+    <video src="media/video.mp4" controls loop preload="auto"></video>
+    <audio src="media/audio.mp3" controls></audio>
+
+
+</body>
+</html>

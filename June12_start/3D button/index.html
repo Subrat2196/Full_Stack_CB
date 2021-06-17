@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+        <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Here we want to make a 3-D box in which we want a box shadow,therefore we create a division which is nothing but
+    a container then we give it a style using the css file 
+    here when we use box shadow e.g box-shadow: grey 5px 5px -> what it means that a grey shadow is created 5px to right 
+    and 5 to bottom  if we wrtie it as -5px -5px it means 5 to left and 5 to top 
+    In this the first parameter is color second is horizontal pixel third is vertical pixel and fourth is blurring 
+    e.g box-shadow grey 8px 8px 5px  -> here last 5px is the blurred amount
+
+    we can also set the hover on the div that when we hover above it, then it will transform in a way
+        div:hover{ transformL: translate(-10px,-10px) } -> this means when you will hover over it, it will move 10 pixel left 
+        and 10 pixel top with the shadow as well
+        To get a better effect when we hover we make the shadow size bigger by adding the same size to it by which we transform
+        so that it looks only the button is moving
+        and for smooth working we set the transition as 0.3 seconds and blurring should also increase
+
+        Now when we click to the button it should get closer to the original state
+        div:active{} it is used when we click
+    -->
+    <div>Click Here please</div>
 </body>
 </html>
