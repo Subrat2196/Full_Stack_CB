@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    background-color:burlywood;
+}
+
+
+#d1{
+    
+    text-align: center;
+}
+
+#d2,#d3{
+    height: 70px;
+    width: 200px;
+    margin: 50px;
+    background-color: tomato;
+    color: azure;
+    font-size: 24pt;
+    padding: 10px;
+    box-shadow: grey 8px 8px 5px;
+    transition: 0.3s;
+    display: inline;
+}
+
+#d2:hover{
+    transform: translate(-8px,-8px);
+    box-shadow: grey 16px 16px 10px;
+}
+#d2:active{
+    transform: translate(10px,10px);
+    box-shadow: grey 5px 5px 2px;
+}
+
+
+#d3:hover{
+    transform: translate(-8px,-8px);
+    box-shadow: grey 16px 16px 10px;
+}
+#d3:active{
+    transform: translate(10px,10px);
+    box-shadow: grey 5px 5px 2px;
+}
