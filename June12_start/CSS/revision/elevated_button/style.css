@@ -1,0 +1,22 @@
+div.one
+{
+    margin: 100px;
+    background-color: peru;
+    color: white;
+    padding: 30px;
+    font-size: 25pt;
+    width: 140px;
+    height: 140px;
+    box-shadow: darkgreen 10px 10px 5px;
+    transition: 0.2s;
+    border-radius: 15px;
+}
+
+.one:hover{
+    transform: translate(-10px,-10px);
+    box-shadow: darkgreen 20px 20px 15px;
+}
+.one:active{
+    transform: translate(10px,10px);
+    box-shadow: darkgreen 10px 10px 5px;
+}

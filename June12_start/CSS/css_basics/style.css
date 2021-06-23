@@ -1,5 +1,7 @@
 .box1{
     margin: 20px;
+    padding: 10px;
+    border: solid black 3px;
 }
 
 #div1{

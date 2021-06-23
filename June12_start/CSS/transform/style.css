@@ -1,0 +1,18 @@
+div{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: indianred;
+}
+
+.one{
+    transform: scale(1.5,1.5);
+}
+
+.two{
+    transform: rotate(30deg) translate(30px,5px);
+}
+
+.three{
+    transform: skew();
+}
