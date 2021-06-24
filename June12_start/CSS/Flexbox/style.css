@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-color: bisque;
+    flex-flow: row wrap;
+    margin: 30px;
+    /* Here flex flow is the combination of flex direction and flex wrap*/
+
+    justify-content: center;
+    /* justify content is how items within a row is aligned in order, not the alignment of container*/
+    /* align items is used to align the top or bottom of an item if the padding is different etc*/
+    text-align: center;
+    /* it makes the text-horizontally at the center to make the vertical alignment there is no direct solution in css
+    we can do it using line height
+    */
+    
+    /*align items within the row perpendicularly*/
+    align-items: center;
+    /*align content is align all the rows together*/
+
+    align-content: space-around;
+}
+
+.item{
+    border: solid black 2px;
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+    color: antiquewhite;
+    font-size: 30px;
+    line-height: 70px;
+}
