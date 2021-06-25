@@ -1,0 +1,40 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: azure;
+    margin: 50px;
+}
+
+.item{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    margin: 10px;
+    font-size: 20pt;
+    color: white;
+}
+
+.container.one > .item.two{
+    background-color: red;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+}
+
+.container.one > .item.three{
+    background-color: brown;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.container.one > .item.three{
+    background-color: brown;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.container > .one{
+    position: sticky;
+    top:30px;
+}

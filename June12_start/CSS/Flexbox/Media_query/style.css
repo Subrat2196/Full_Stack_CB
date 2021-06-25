@@ -1,0 +1,19 @@
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: red;
+}
+
+@media (max-width: 1500px)
+{
+    .box{
+        background-color: blue;
+    }
+}
+@media (max-width:750px)
+{
+    .box{
+        background-color: brown;
+    }
+}

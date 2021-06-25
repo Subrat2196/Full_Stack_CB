@@ -1,0 +1,65 @@
+.box{
+    margin: 30px;
+    display: inline-flex;
+    flex-wrap: row;
+}
+
+.one
+{
+    height: 500px;
+    width: 300px;
+    background-color: bisque;
+}
+
+.two{
+    height: 500px;
+    width: 300px;
+    background-color: lightblue;
+
+}
+.three
+{
+    height: 500px;
+    width: 300px;
+    background-color: lightcoral;
+}
+
+.four
+{
+    height: 500px;
+    width: 300px;
+    background-color: lightcyan;
+}
+.five
+{
+    height: 500px;
+    width: 300px;
+    background-color:lightyellow;
+}
+
+.six
+{
+    height: 500px;
+    width: 300px;
+    background-color:lightpink;
+}
+
+@media (max-width: 1500px)
+{
+    .box{
+        margin: 20px;
+        
+    }
+}
+@media (max-width:750px)
+{
+    .box{
+        margin: auto;
+    }
+}
+@media (max-width:400px)
+{
+    .box{
+        margin: auto;
+    }
+}
